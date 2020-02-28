@@ -12,8 +12,8 @@ async function main() {
   const maleReport = buildMaleReport(data);
   printReport(maleReport);
 
-  //const disabilityReport = buildReport(data, "Disabilities per School Type", "disability");
-  //printReport(disabilityReport);
+  const disabilityReport = buildReport(data, "Disabilities per School Type", "disability");
+  printReport(disabilityReport);
 }
 
 async function getData() {
